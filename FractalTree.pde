@@ -1,18 +1,18 @@
 private double fractionLength = .8; 
 private int smallestBranch = 1; 
-private double branchAngle = .7;  
+private double branchAngle = .9;  
 public void setup() 
 {   
 	size(640,480);    
 	noLoop(); 
+	frameRate(60);
 } 
 public void draw() 
 {   
 	background(0);   
-	stroke(0,255,0);   
+	stroke(199, 245, 198);   
 	line(320,480,320,380);   
 	drawBranches(320,380,100,3*Math.PI/2);
-	drawBranches(380,380,100,3*Math.PI/2);
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
