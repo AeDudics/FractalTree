@@ -12,7 +12,6 @@ public void draw()
 	stroke(199, 245, 198);   
 	line(320,480,320,380);   
 	drawBranches(320,380,200,3*Math.PI/2);
-	background(0);   
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
